@@ -8,6 +8,9 @@
 body {
     font-family: nobile;
     color: #484654;
+    max-width: 1050px;
+    margin: 0 auto;
+    
 }
 .text-hdr {
     font-size: 7vw;
@@ -29,6 +32,9 @@ body {
 .featured-img {
     margin: 10px 0px;
     max-width: 350px;
+}
+.responsive-img {
+    max-width: 100%;
 }
 .header {
     padding-top: 20px;
@@ -53,8 +59,10 @@ body {
     }
     .header {
         justify-content: space-between;
-        /* margin: 0 auto 30px; */
-        /* text-align: right; */
+        
+    }
+    .header-text{ 
+        margin-left: auto;
     }
     
     .header,
@@ -63,8 +71,9 @@ body {
     .featured {
         display: flex;
         margin: 0 auto;
-        max-width: 1050px;
+        max-width: 100%;
     }
+    
     .hero-img {
         margin-bottom: 45px;
         margin-top: 30px;
