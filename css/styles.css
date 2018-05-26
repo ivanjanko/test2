@@ -30,7 +30,6 @@ body {
     margin: 20px 0px;
 }
 .featured-img {
-    margin: 10px 0px;
     max-width: 350px;
 }
 .responsive-img {
@@ -53,18 +52,24 @@ body {
         font-size: 4vw;
     }
 }
+@media screen and (min-width: 350px) and (max-width: 750px) {
+    
+    .featured-item {
+        padding: 20px 20px 0px 20px;
+    }
+}
 @media screen and (min-width: 750px) {
     .header-img {
         max-width: 80px;
+        margin-top: 20px;
     }
     .header {
         justify-content: space-between;
-        
     }
     .header-text{ 
         margin-left: auto;
+        margin-top: 30px;
     }
-    
     .header,
     .hero-img,
     .content-header,
