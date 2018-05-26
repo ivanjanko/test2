@@ -61,14 +61,14 @@ body {
 @media screen and (min-width: 750px) {
     .header-img {
         max-width: 80px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .header {
         justify-content: space-between;
     }
     .header-text{ 
         margin-left: auto;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .header,
     .hero-img,
@@ -81,7 +81,7 @@ body {
     
     .hero-img {
         margin-bottom: 45px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .featured {
         margin: 10px auto 0;
